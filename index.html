@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Home </title>
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+* {box-sizing: border-box;}
+body, h2, h3, h4,p, footer {font-family:Helvetica,"lucida grande", tahoma, verdana, arial, sans-serif;}
+.header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+/* desain topnav */
+.topnav {
+    overflow: hidden;
+    border: none;
+    background-color: #FFB6C1;
+}
+
+.topnav a {
+  background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+/* desain warna tombol */
+.topnav a:hover {
+    background-color: #E6E6FA;
+}
+
+/* Create an active/current topnav class */
+.topnav a.active {
+    background-color: #E6E6FA;
+}
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: #ADD8E6;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #90EE90;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ /* Make the image fully responsive */
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.footer {
+    padding: 25px;
+    text-align: center;
+    background: #FFB6C1;
+    font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+
+ <nav class="navbar navbar-right">
+  <div class="container-fluid">
+      <li style="list-style-type:none;"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <li style="list-style-type:none;"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      &nbsp;
+      &nbsp;
+  </div>
+</nav>
+
+<div class="header">
+  <img src="https://i.postimg.cc/9XvLppn4/Subsport3.png" style="width:240px;height:135px;" class="center">
+</div>
+
+
+
+  <div class="topnav">
+  <a class="active" href="index.html">HOME</a>
+  <a href="About.html">ABOUT</a>
+  <a href="ContactUs.html">CONTACT US</a>
+  <a href="help.html">HELP</a>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.postimg.cc/kX55GRzj/peg35.jpg" alt="Gambar - 1" width="1280" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.postimg.cc/Pxw6p6wd/pod-hp-mh-typea-dt_271913.jpg" alt="Gambar - 2" width="1280" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.postimg.cc/fbTb4dBs/header1.jpg" alt="Gambar - 3" width="1280" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.postimg.cc/9FYVWM4Q/nbheader.jpg" alt="Gambar - 4" width="1280" height="700">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div id="Home" class="tabcontent">
+  <a href="subsport - Copy.html"></a>
+</div>
+
+
+ <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/q7Q2F3CV/gambar10.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">EXPRESS RUNNER 2.0.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='view/Express Runner 2.0.html'">View</button>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/8CwZ43kB/gambar_2.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">REEBOK ROYAL BB4500 HI2.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='view/Reebook Royal BB4500 HI2.html'">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/Y21J997T/gambar_3.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Nike Hyperdunk X.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" >View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/1t2BWqLR/gambar11.jpg"  style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">REEBOK PT PRIME RUNNER FC.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='view/REEBOK PT PRIME RUNNER FC.html'"
+                      >View</button>
+                      <div class="">
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/pdHjPqJw/gambar_5.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">QUESTAR RIDE SHOES.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"onclick="window.location.href='view/SEPEDA QUESTAR RIDE.html'">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/T3ryNnvC/gambar_7.jpg"  style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Nike Zoom Pegasus Turbo.</p>
+                   <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/vTWDj5vw/air-zoom-pegasus-35-running-shoe-_DXK1_Zj_3.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Nike Air Zoom Pegasus 35</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"onclick="window.location.href='view/Nike Air Zoom Pegasus 35.html'">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/4dnxG9jC/gambar1.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">ZIGWILD TR 5.0.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"onclick="window.location.href='view/ZIGWILD TR 5.0.html'">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="https://i.postimg.cc/8zHvPLXs/gambar_6.jpg" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">ULTRABOOST SHOES.</p>
+                  <div class="clear"></div>
+                  <p class="card-text">Rp. 100.000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"onclick="window.location.href='view/SEPATU ULTRABOOST.html'">View</button>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+
+<div style="padding-left:15px">
+</div>
+
+<div id="About" class="tabcontent">
+  <a href="about.html"></a>
+</div>
+
+<div id="Contact Us" class="tabcontent">
+  <a href="ContactUs.html"></a>
+</div>
+
+<div id="Help" class="tabcontent">
+  <a href="help.html"></a>
+</div>
+
+<div class="footer">
+  <h3>Subsport Station</h3>
+  <p>Universitas Pembangunan Nasional "Veteran" Jawa Timur</p>
+</div>
+
+<script>
+function menu(evt, namamenu) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(namamenu).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+</script>
+
+</body>
+</html>
